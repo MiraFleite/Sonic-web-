@@ -1,0 +1,218 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+background-color:rgb(216, 180, 136);
+
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: rgb(30, 64, 137);
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    
+}
+li{
+    margin-right: 35px;
+}
+nav a{
+    text-decoration: none;
+    color: rgb(5, 5, 5);
+    font-weight: bold;
+}
+ nav a:hover{
+    color: rgb(216, 180, 136);
+ }
+
+ .welcome{
+ display: flex;   
+  justify-content: center;
+align-items: center;
+text-align: center;     
+position: relative;
+overflow: hidden;  
+height: 50vh;
+
+
+   flex-direction: column;
+    background-size: cover;
+
+color: rgb(0, 0, 0);
+
+ }
+ video-bg{
+    
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    
+   
+
+ }
+ .hello{
+    text-align: center;
+ }
+ .hello h2{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+
+ }
+
+
+ .hello button{
+   text-align: center;
+    padding: 10px 20px ;
+
+    background-color: rgb(30, 64, 137);
+    font-size: 16px;
+    border: none;
+    color: rgb(0, 0, 0);
+     border-radius: 5px ;
+ }
+
+ .aboutus{
+ 
+text-align: center;
+ }
+.aboutus p{
+margin-bottom: 30px;
+line-height: 1.5;
+font-size: 20px;
+}
+.aboutus h2{
+    margin-bottom: 20px;
+    
+    font-size: 30px;
+}
+
+.intro h2{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.intro p{
+    text-align: center;
+    margin-bottom: 30px;
+line-height: 1.5;
+font-size: 20px;
+}
+.intro img{
+   
+    width: 32.5%;
+    height:250px ;
+    border-radius: 5px;
+
+    
+    margin-bottom: 20px;
+}
+.SONICTEAM h2{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.knuckles h1{
+    text-align: left;
+  text-shadow: 20px;
+}
+.knuckles img{
+    float: left;
+    width: 25%;
+    height: 300px;
+   
+    border-radius: 5px;
+    border: 3px solid red;
+}
+.knuckles p{
+     text-align: left;
+    font-size: 20px;
+   
+}
+
+.amyrose h1{
+    text-align: left;
+  text-shadow: 20px;
+}
+.amyrose img{
+    float: right;
+    width: 400px;
+    height: 300px;
+   
+    border-radius: 5px;
+    border: 3px solid palevioletred;
+}
+.amyrose p{
+     text-align: left;
+    font-size: 20px;
+   
+}
+.Tails h1{
+    text-align: left;
+  text-shadow: 20px;
+}
+.Tails img{
+    float: left;
+    width: 400px;
+    height: 300px;
+   
+    border-radius: 5px;
+    border: 3px solid yellow;
+}
+.Tails p{
+     text-align: left;
+    font-size: 20px;
+   
+}
+.Sticks h1{
+    text-align: left;
+  text-shadow: 20px;
+}
+.Sticks img{
+    float: right;
+    width: 400px;
+    height: 300px;
+   
+    border-radius: 5px;
+    border: 3px solid rgb(97, 21, 21);
+}
+.Sticks p{
+     text-align: left;
+    font-size: 20px;
+   
+}
+.gallery{
+text-align: center;
+padding: 50px 20px;
+}
+.gallery h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.imagescontainer{ 
+   display: grid;
+    grid-template-columns:repeat(3,1fr) ;
+    grid-gap: 20px;
+}
+.imagescontainer img{
+
+    width: 550px;
+    height:300px ;
+    border-radius: 5px;
+}
+
+.footer {
+padding: 20px 20px;
+background-color: aliceblue;
+font-size: 14px;
+text-align: center;
+
+}
